@@ -61,6 +61,10 @@ data/curated/**
 !data/curated/.gitkeep
 !data/metadata/.gitkeep
 
+# Allow sample meta-analysis data (small, for demos)
+!data/raw/sample_metaanalysis/
+!data/raw/sample_metaanalysis/*.csv
+
 # Logs
 logs/
 *.log
