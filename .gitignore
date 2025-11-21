@@ -81,6 +81,10 @@ data/curated/**
 !data/raw/phase1_expansion/
 !data/raw/phase1_expansion/*.csv
 
+# Allow Phase 2 expansion datasets (100 trials: HTN, HF, Lipids, Valvular)
+!data/raw/phase2_expansion/
+!data/raw/phase2_expansion/*.csv
+
 # Logs
 logs/
 *.log
