@@ -48,6 +48,10 @@ env/
 data/raw/**
 data/processed/**
 data/curated/**
+
+# EXCEPT allow master dataset and summary
+!data/processed/master_cardiovascular_metaanalysis_625trials.csv
+!data/processed/master_dataset_summary.txt
 *.csv
 *.json
 *.parquet
