@@ -85,6 +85,10 @@ data/curated/**
 !data/raw/phase2_expansion/
 !data/raw/phase2_expansion/*.csv
 
+# Allow Phase 3 expansion datasets (75+ trials: Diabetes, Stroke, PVD)
+!data/raw/phase3_expansion/
+!data/raw/phase3_expansion/*.csv
+
 # Logs
 logs/
 *.log
