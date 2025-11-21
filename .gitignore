@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (too large for git)
+data/raw/**
+data/processed/**
+data/curated/**
+*.csv
+*.json
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+
+# Except example/small test data
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/curated/.gitkeep
+!data/metadata/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API keys and credentials
+config/credentials.yaml
+config/database.yaml
+*.pem
+*.key
+
+# Large models
+models/
+*.model
+
+# Documentation builds
+docs/_build/
+site/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS
+Thumbs.db
+.DS_Store

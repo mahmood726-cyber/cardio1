@@ -1,0 +1,217 @@
+# Data Source Configuration for Cardiology Meta-Analysis
+
+data_sources:
+  pubmed:
+    name: "PubMed"
+    api_url: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+    rate_limit: 3  # requests per second without API key
+    rate_limit_with_key: 10  # requests per second with API key
+    email_required: true
+    api_key_optional: true
+    priority: 1
+    enabled: true
+
+  clinicaltrials:
+    name: "ClinicalTrials.gov"
+    api_url: "https://clinicaltrials.gov/api/v2"
+    rate_limit: 2  # requests per second
+    priority: 1
+    enabled: true
+
+  cochrane:
+    name: "Cochrane Library"
+    base_url: "https://www.cochranelibrary.com"
+    access_method: "manual"  # Requires subscription or manual download
+    priority: 2
+    enabled: false  # Enable after obtaining access
+
+  aact:
+    name: "AACT Database"
+    host: "aact-db.ctti-clinicaltrials.org"
+    port: 5432
+    database: "aact"
+    username: ""  # Fill in after registration
+    password: ""  # Fill in after registration
+    priority: 1
+    enabled: false  # Enable after obtaining credentials
+
+  kaggle:
+    name: "Kaggle Cardiovascular Datasets"
+    datasets:
+      - "sulianova/cardiovascular-disease-dataset"
+      - "johnsmith88/heart-disease-dataset"
+    api_key_file: "~/.kaggle/kaggle.json"
+    priority: 3
+    enabled: false  # Enable after setting up Kaggle API
+
+  cardiodatasets:
+    name: "CardioDataSets R Package"
+    install_command: "install.packages('CardioDataSets')"
+    language: "R"
+    priority: 2
+    enabled: false
+
+  mimic:
+    name: "MIMIC-III/IV"
+    access_url: "https://mimic.mit.edu"
+    requires_training: true
+    priority: 2
+    enabled: false  # Enable after completing CITI training
+
+# Search Parameters
+
+search_parameters:
+  cardiology_conditions:
+    - "Coronary Artery Disease"
+    - "Myocardial Infarction"
+    - "Heart Failure"
+    - "Atrial Fibrillation"
+    - "Hypertension"
+    - "Cardiomyopathy"
+    - "Valvular Heart Disease"
+    - "Arrhythmia"
+    - "Angina Pectoris"
+    - "Acute Coronary Syndrome"
+    - "Ventricular Tachycardia"
+    - "Cardiac Arrest"
+    - "Aortic Stenosis"
+    - "Mitral Regurgitation"
+    - "Pulmonary Hypertension"
+    - "Congenital Heart Disease"
+    - "Pericardial Disease"
+    - "Endocarditis"
+
+  mesh_terms:
+    - "Cardiology"
+    - "Heart Diseases"
+    - "Cardiovascular Diseases"
+    - "Coronary Disease"
+    - "Heart Failure"
+    - "Arrhythmias, Cardiac"
+    - "Myocardial Infarction"
+    - "Hypertension"
+    - "Cardiomyopathies"
+    - "Heart Valve Diseases"
+
+  study_types:
+    - "Randomized Controlled Trial"
+    - "Clinical Trial"
+    - "Observational Study"
+    - "Meta-Analysis"
+    - "Systematic Review"
+    - "Cohort Study"
+    - "Case-Control Study"
+
+  date_range:
+    start_year: 1990
+    end_year: 2025
+
+  quality_filters:
+    minimum_enrollment: 50
+    require_peer_review: true
+    require_english: true
+    require_human_studies: true
+
+# Output Configuration
+
+output:
+  raw_data_dir: "./data/raw"
+  processed_data_dir: "./data/processed"
+  curated_data_dir: "./data/curated"
+  metadata_dir: "./data/metadata"
+
+  formats:
+    - "json"
+    - "csv"
+    - "parquet"
+
+  compression: "gzip"
+
+# Collection Settings
+
+collection:
+  batch_size: 200
+  max_retries: 3
+  retry_delay: 5  # seconds
+  timeout: 30  # seconds
+
+  parallel_processing:
+    enabled: true
+    max_workers: 4
+
+  logging:
+    level: "INFO"
+    log_file: "./logs/collection.log"
+
+# Quality Control
+
+quality_control:
+  duplicate_detection:
+    enabled: true
+    match_fields:
+      - "pmid"
+      - "doi"
+      - "nct_id"
+      - "title"
+
+  validation:
+    required_fields:
+      - "title"
+      - "publication_year"
+      - "study_type"
+
+    field_constraints:
+      publication_year:
+        min: 1950
+        max: 2026
+      enrollment:
+        min: 1
+        max: 1000000
+
+  data_cleaning:
+    remove_retractions: true
+    standardize_dates: true
+    normalize_text: true
+
+# Meta-Analysis Configuration
+
+meta_analysis:
+  effect_measures:
+    - "Risk Ratio"
+    - "Odds Ratio"
+    - "Hazard Ratio"
+    - "Mean Difference"
+    - "Standardized Mean Difference"
+
+  models:
+    - "Fixed-effect"
+    - "Random-effects"
+
+  heterogeneity_tests:
+    - "I-squared"
+    - "Cochran Q"
+    - "Tau-squared"
+
+  publication_bias:
+    - "Funnel plot"
+    - "Egger test"
+    - "Begg test"
+
+# Notifications
+
+notifications:
+  email:
+    enabled: false
+    smtp_server: ""
+    smtp_port: 587
+    sender: ""
+    recipients: []
+
+  slack:
+    enabled: false
+    webhook_url: ""
+
+# Version Control
+
+version: "1.0.0"
+last_updated: "2025-11-21"
