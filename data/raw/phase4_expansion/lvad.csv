@@ -1,0 +1,6 @@
+study_id,category,intervention,control,n_intervention,n_control,events_intervention,events_control,risk_intervention,risk_control,rr,log_rr,se_log_rr,year,mean_age,pct_male,mean_followup_months,notes
+REMATCH,LVAD,LVAD,Medical therapy,68,61,44,48,0.6470588235294118,0.7868852459016393,0.8223039215686275,-0.19564521799242512,0.11163010832528142,2001,67.0,89.0,13,Advanced HF. LVAD improved survival by 48% at 1 year
+HeartMate II,LVAD,Continuous-flow LVAD,Pulsatile LVAD,200,130,71,65,0.355,0.5,0.71,-0.342490308946776,0.1295253439854966,2009,57.0,81.0,24,Bridge to transplant. Continuous-flow superior
+MOMENTUM 3,LVAD,HeartMate 3 LVAD,HeartMate II LVAD,515,516,118,151,0.229126213592233,0.2926356589147287,0.782974345785379,-0.2446553475314331,0.10591204255672848,2017,60.0,78.0,24,Advanced HF. HM3 superior (less thrombosis)
+ENDURANCE,LVAD,HVAD,HeartMate II,297,148,89,42,0.2996632996632997,0.28378378378378377,1.0559563892897228,0.05444688641018714,0.1578661418479069,2017,59.0,79.0,24,Bridge to transplant. Non-inferior for primary endpoint
+REVIVE-IT,LVAD,Partial LVAD support,Full LVAD support,50,50,12,15,0.24,0.3,0.8,-0.2231435513142097,0.33166247903553997,2018,58.0,82.0,12,Partial vs full support - pilot trial

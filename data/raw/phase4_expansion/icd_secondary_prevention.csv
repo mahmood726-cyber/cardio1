@@ -1,0 +1,6 @@
+study_id,category,intervention,control,n_intervention,n_control,events_intervention,events_control,risk_intervention,risk_control,rr,log_rr,se_log_rr,year,mean_age,pct_male,mean_followup_months,notes
+AVID,ICD Secondary Prevention,ICD,Antiarrhythmic drugs,507,509,80,122,0.15779092702169625,0.23968565815324164,0.6583244414265852,-0.41805739710003537,0.12945925297739255,1997,65.0,79.0,18,VF/VT arrest survivors. ICD reduces mortality by 31%
+CIDS,ICD Secondary Prevention,ICD,Amiodarone,328,331,83,93,0.2530487804878049,0.2809667673716012,0.9006359821662733,-0.10465411836373885,0.12934818289820965,2000,64.0,85.0,36,Canadian trial. 20% mortality reduction with ICD
+CASH,ICD Secondary Prevention,ICD,Amiodarone or metoprolol,99,92,36,44,0.36363636363636365,0.4782608695652174,0.7603305785123967,-0.27400196854770076,0.17185597221699656,2000,58.0,88.0,68,Cardiac arrest survivors. 23% mortality reduction
+CABG-Patch,ICD Secondary Prevention,ICD,No ICD,446,454,101,95,0.226457399103139,0.2092511013215859,1.0822279915034223,0.0790218712620026,0.12642195319765356,1997,64.0,89.0,32,CABG with low EF. ICD no benefit (prophylactic at CABG)
+DINAMIT,ICD Secondary Prevention,ICD,No ICD,332,342,62,58,0.18674698795180722,0.1695906432748538,1.1011632737847943,0.09636714264478877,0.1656332900338912,2004,62.0,76.0,30,Recent MI with low EF. ICD no overall benefit (too early post-MI)

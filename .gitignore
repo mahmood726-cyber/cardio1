@@ -89,6 +89,10 @@ data/curated/**
 !data/raw/phase3_expansion/
 !data/raw/phase3_expansion/*.csv
 
+# Allow Phase 4 expansion datasets (100+ trials: Devices, Coronary, Anti-inflammatory, Historical)
+!data/raw/phase4_expansion/
+!data/raw/phase4_expansion/*.csv
+
 # Logs
 logs/
 *.log
