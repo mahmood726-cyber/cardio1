@@ -44,20 +44,21 @@ env/
 *~
 .DS_Store
 
-# Data files (too large for git)
-data/raw/**
-data/processed/**
-data/curated/**
-
-# EXCEPT allow master dataset and summary
-!data/processed/master_cardiovascular_metaanalysis_625trials.csv
-!data/processed/master_dataset_summary.txt
-*.csv
+# Data files (too large for git) - CSV, JSON, parquet, etc.
 *.json
 *.parquet
 *.pkl
 *.h5
 *.hdf5
+
+# Ignore all data directories by default
+data/raw/**
+data/processed/**
+data/curated/**
+
+# EXCEPT allow master dataset and summary
+!data/processed/master_cardiovascular_metaanalysis_*trials.csv
+!data/processed/master_dataset_summary.txt
 
 # Except example/small test data
 !data/raw/.gitkeep
@@ -96,6 +97,34 @@ data/curated/**
 # Allow Phase 4 expansion datasets (100+ trials: Devices, Coronary, Anti-inflammatory, Historical)
 !data/raw/phase4_expansion/
 !data/raw/phase4_expansion/*.csv
+
+# Allow Phase 5 expansion datasets (CKD trials)
+!data/raw/phase5_expansion/
+!data/raw/phase5_expansion/*.csv
+
+# Allow Phase 6 expansion datasets (Arrhythmia trials)
+!data/raw/phase6_expansion/
+!data/raw/phase6_expansion/*.csv
+
+# Allow Phase 7 expansion datasets (Preventive trials)
+!data/raw/phase7_expansion/
+!data/raw/phase7_expansion/*.csv
+
+# Allow Phase 8 expansion datasets (Cardiomyopathy trials)
+!data/raw/phase8_expansion/
+!data/raw/phase8_expansion/*.csv
+
+# Allow Phase 9 expansion datasets (Additional domains: Pulmonary HTN, Women's Health, etc.)
+!data/raw/phase9_expansion/
+!data/raw/phase9_expansion/*.csv
+
+# Allow Phase 10 expansion datasets (Cardiac Surgery trials)
+!data/raw/phase10_expansion/
+!data/raw/phase10_expansion/*.csv
+
+# Allow Phase 11 emerging domains (Cardio-Renal-Metabolic, Advanced Rhythm, MCS, etc.)
+!data/raw/phase11_emerging/
+!data/raw/phase11_emerging/*.csv
 
 # Logs
 logs/
