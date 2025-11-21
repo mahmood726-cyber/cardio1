@@ -134,6 +134,10 @@ data/curated/**
 !data/raw/phase13_imaging/
 !data/raw/phase13_imaging/*.csv
 
+# Allow Phase 14 rare conditions (Takotsubo, INOCA, SCAD, Bridging, Rare syndromes)
+!data/raw/phase14_rare_conditions/
+!data/raw/phase14_rare_conditions/*.csv
+
 # Logs
 logs/
 *.log
