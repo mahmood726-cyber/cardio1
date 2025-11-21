@@ -3,7 +3,7 @@
 Create Master Combined Dataset from All Phases
 
 This script combines all phase datasets into a single master cardiovascular
-meta-analysis database containing 596 trials across 11 phases.
+meta-analysis database containing 634 trials across 12 phases.
 
 Author: Research Team
 Date: November 2025
@@ -42,6 +42,7 @@ def create_master_dataset():
         "phase9_expansion/phase9_combined.csv",
         "phase10_expansion/phase10_combined.csv",
         "phase11_emerging/phase11_combined.csv",
+        "phase12_specialized/phase12_combined.csv",
     ]
 
     # Read and combine all phases

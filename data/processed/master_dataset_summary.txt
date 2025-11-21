@@ -1,13 +1,13 @@
 MASTER CARDIOVASCULAR META-ANALYSIS DATABASE
 ================================================================================
 
-Total Trials: 596
-Total Patients: 2,421,046
+Total Trials: 634
+Total Patients: 2,483,638
 Date Range: 1970 - 2024
 
-Categories: 83
-Interventions: 452
+Categories: 88
+Interventions: 487
 
-Mean Age: 62.8 years
-% Male: 66.9%
-Mean Follow-up: 28.5 months
+Mean Age: 61.5 years
+% Male: 65.1%
+Mean Follow-up: 28.1 months

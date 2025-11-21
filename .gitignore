@@ -126,6 +126,10 @@ data/curated/**
 !data/raw/phase11_emerging/
 !data/raw/phase11_emerging/*.csv
 
+# Allow Phase 12 specialized populations (Cardio-Oncology, HIV, Inflammatory, Pregnancy, ACHD)
+!data/raw/phase12_specialized/
+!data/raw/phase12_specialized/*.csv
+
 # Logs
 logs/
 *.log
