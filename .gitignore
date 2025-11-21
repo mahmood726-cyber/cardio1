@@ -73,6 +73,10 @@ data/curated/**
 !data/processed/validation_results/
 !data/processed/validation_results/*.csv
 
+# Allow advanced datasets (for meta-regression, dose-response, NMA)
+!data/raw/advanced_datasets/
+!data/raw/advanced_datasets/*.csv
+
 # Logs
 logs/
 *.log
