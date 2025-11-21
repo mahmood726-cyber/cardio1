@@ -77,6 +77,10 @@ data/curated/**
 !data/raw/advanced_datasets/
 !data/raw/advanced_datasets/*.csv
 
+# Allow Phase 1 expansion datasets (74 trials: ACS, AF, TAVI)
+!data/raw/phase1_expansion/
+!data/raw/phase1_expansion/*.csv
+
 # Logs
 logs/
 *.log
