@@ -130,6 +130,10 @@ data/curated/**
 !data/raw/phase12_specialized/
 !data/raw/phase12_specialized/*.csv
 
+# Allow Phase 13 advanced imaging (CT-FFR, CMR, PET, Stress imaging, Advanced echo)
+!data/raw/phase13_imaging/
+!data/raw/phase13_imaging/*.csv
+
 # Logs
 logs/
 *.log
