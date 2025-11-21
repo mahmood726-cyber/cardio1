@@ -1,0 +1,8 @@
+dataset,expected_outliers,detected_outliers,n_outliers,outlier_studies,correct_classification
+cardiac_rehab,False,False,0,[],True
+aspirin_cvd,False,False,0,[],True
+ace_inhibitors_hf,False,False,0,[],True
+statins_primary_prevention,False,False,0,[],True
+pci_vs_medical,True,False,0,[],False
+beta_blockers_hf,False,False,0,[],True
+antiarrhythmics,True,False,0,[],False

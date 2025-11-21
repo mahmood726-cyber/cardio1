@@ -1,0 +1,8 @@
+dataset,n_trials,total_patients,expected_i_squared,heterogeneity,has_publication_bias,has_outliers
+beta_blockers_hf,10,14796,25.0,low-moderate,False,False
+ace_inhibitors_hf,6,9602,15.0,low,False,False
+statins_primary_prevention,6,59494,45.0,moderate,False,False
+antiarrhythmics,4,5472,85.0,very high,False,True
+cardiac_rehab,6,7726,35.0,moderate,True,False
+aspirin_cvd,27,143279,30.0,low-moderate,False,False
+pci_vs_medical,4,9885,45.0,moderate,False,True

@@ -1,8 +1,8 @@
-# Project Summary: World's Largest Cardiology Meta-Analysis Dataset
+# Project Summary: Advanced Meta-Analysis Framework for Cardiology
 
 ## 🎯 Mission
 
-Create the most comprehensive cardiology meta-analysis dataset and develop **advanced statistical methods** that address fundamental failures in modern meta-analysis practice.
+Develop and validate **advanced statistical methods** that address fundamental failures in modern meta-analysis practice, with application to important cardiology questions.
 
 ## 📊 What We Built
 

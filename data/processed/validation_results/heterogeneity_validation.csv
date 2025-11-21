@@ -1,0 +1,8 @@
+dataset,expected_i2,observed_i2,difference,matches_expectation,expected_category
+cardiac_rehab,35.0,17.142551665845012,-17.857448334154988,False,moderate
+aspirin_cvd,30.0,3.906801880679065,-26.093198119320935,False,low-moderate
+ace_inhibitors_hf,15.0,32.108824271956216,17.108824271956216,False,low
+statins_primary_prevention,45.0,47.876824771705955,2.876824771705955,True,moderate
+pci_vs_medical,45.0,0.0,-45.0,False,moderate
+beta_blockers_hf,25.0,25.052076973564404,0.05207697356440377,True,low-moderate
+antiarrhythmics,85.0,82.60749369394327,-2.392506306056731,True,very high

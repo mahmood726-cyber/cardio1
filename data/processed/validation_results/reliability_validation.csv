@@ -1,0 +1,8 @@
+dataset,n_studies,i_squared,reliability_score,reliability_category,expert_assessment,agreement,critical_issues,warnings
+cardiac_rehab,6,17.142551665845012,90.0,High,Moderate,False,0,4
+aspirin_cvd,27,3.906801880679065,100.0,High,High,True,0,1
+ace_inhibitors_hf,6,32.108824271956216,100.0,High,High,True,0,1
+statins_primary_prevention,6,47.876824771705955,90.0,High,Moderate,False,0,4
+pci_vs_medical,4,0.0,60.0,Moderate,Moderate,True,1,3
+beta_blockers_hf,10,25.052076973564404,100.0,High,High,True,0,1
+antiarrhythmics,4,82.60749369394327,40.0,Low,Very Low,False,1,5

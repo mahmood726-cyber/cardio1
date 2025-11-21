@@ -1,0 +1,3 @@
+dataset,n_studies,expected_bias,detected_bias,egger_p,correct_classification
+aspirin_cvd,27,False,True,5.613096876189161e-09,False
+beta_blockers_hf,10,False,False,0.11678846453413527,True

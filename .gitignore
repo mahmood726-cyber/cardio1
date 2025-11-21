@@ -65,6 +65,14 @@ data/curated/**
 !data/raw/sample_metaanalysis/
 !data/raw/sample_metaanalysis/*.csv
 
+# Allow validation datasets (small, important for project validation)
+!data/raw/validation_datasets/
+!data/raw/validation_datasets/*.csv
+
+# Allow validation results (small, documents method performance)
+!data/processed/validation_results/
+!data/processed/validation_results/*.csv
+
 # Logs
 logs/
 *.log

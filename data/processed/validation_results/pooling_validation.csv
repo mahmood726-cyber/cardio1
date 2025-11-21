@@ -1,0 +1,8 @@
+dataset,i_squared,reliability_score,expected_appropriate,detected_appropriate,correct_classification
+cardiac_rehab,17.142551665845012,90.0,True,True,True
+aspirin_cvd,3.906801880679065,100.0,True,True,True
+ace_inhibitors_hf,32.108824271956216,100.0,True,True,True
+statins_primary_prevention,47.876824771705955,90.0,True,True,True
+pci_vs_medical,0.0,60.0,True,True,True
+beta_blockers_hf,25.052076973564404,100.0,True,True,True
+antiarrhythmics,82.60749369394327,40.0,False,False,True

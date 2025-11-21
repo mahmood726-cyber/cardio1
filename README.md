@@ -1,14 +1,21 @@
-# World's Largest Cardiology Meta-Analysis Dataset
+# Advanced Meta-Analysis Framework for Cardiology
 
 ## Project Overview
-This project aims to create the most comprehensive cardiology meta-analysis dataset by aggregating and standardizing data from multiple authoritative sources worldwide.
+This project provides a comprehensive framework for conducting advanced meta-analyses in cardiology, implementing cutting-edge statistical methods from 2024-2025 literature and validated on real data from major cardiovascular trials.
+
+## Current Status
+- **82 trials** from 12 diverse meta-analyses
+- **455,349 patients** total
+- **4 standard methods** (DerSimonian-Laird, REML, Hartung-Knapp, Paule-Mandel)
+- **3 advanced 2024 methods** (robust outlier detection, selection models, Bayesian rare events)
+- **Comprehensive validation** across heterogeneous datasets
 
 ## Objectives
-- Aggregate data from 10+ major cardiology research databases
-- Include 100,000+ clinical trials and observational studies
-- Cover all major cardiology domains
-- Provide standardized, research-ready data for meta-analysis
-- Enable evidence-based cardiology research at unprecedented scale
+- Implement advanced meta-analysis methods from recent statistics journals (2024-2025)
+- Detect when meta-analysis results are unreliable (7 failure modes)
+- Provide automated reliability scoring and diagnostics
+- Expand to 100+ meta-analyses across major cardiology domains
+- Enable evidence-based cardiology research with state-of-the-art methods
 
 ## Data Sources
 

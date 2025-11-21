@@ -21,7 +21,10 @@ from dataclasses import dataclass
 from scipy import stats
 import logging
 
-from advanced_meta_analysis import EffectSize, MetaAnalysisResult
+try:
+    from advanced_meta_analysis import EffectSize, MetaAnalysisResult
+except ImportError:
+    from scripts.analysis.advanced_meta_analysis import EffectSize, MetaAnalysisResult
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
