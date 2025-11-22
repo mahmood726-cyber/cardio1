@@ -166,6 +166,10 @@ data/curated/**
 !data/raw/phase21_additional_domains6/
 !data/raw/phase21_additional_domains6/*.csv
 
+# Allow Phase 22 final expansion - 1000+ TRIAL MILESTONE! (ACS, CHF pharm, Interventional, Arrhythmia, Risk factors, Women's health, Elderly, Clinical scenarios)
+!data/raw/phase22_final_expansion/
+!data/raw/phase22_final_expansion/*.csv
+
 # Logs
 logs/
 *.log
