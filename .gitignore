@@ -150,6 +150,10 @@ data/curated/**
 !data/raw/phase17_additional_domains2/
 !data/raw/phase17_additional_domains2/*.csv
 
+# Allow Phase 18 additional domains 3 (Biomarker-guided, Anticoagulation, Cardiac rehab, Pericardial, Structural heart)
+!data/raw/phase18_additional_domains3/
+!data/raw/phase18_additional_domains3/*.csv
+
 # Logs
 logs/
 *.log
