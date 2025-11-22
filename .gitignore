@@ -228,3 +228,10 @@ htmlcov/
 # OS
 Thumbs.db
 .DS_Store
+
+# Allow supplementary materials
+!papers/supplementary/
+!papers/supplementary/**/*.png
+!papers/supplementary/**/*.pdf
+!papers/supplementary/**/*.csv
+!papers/supplementary/**/*.txt

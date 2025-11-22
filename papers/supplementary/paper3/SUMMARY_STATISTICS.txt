@@ -1,0 +1,62 @@
+
+PAPER 3 SUPPLEMENTARY MATERIALS - SUMMARY STATISTICS
+======================================================================
+
+Total Trials: 1001
+Total Patients: 3,897,310
+Year Range: 1970-2024
+
+Clinical Domains Identified: 16
+
+TOP 10 DOMAINS BY TRIAL COUNT:
+domain
+Other Cardiovascular             272
+Heart Failure Pharmacotherapy    134
+Interventional Cardiology        129
+Acute Coronary Syndromes          94
+Stroke Prevention                 86
+Lipid-Lowering Therapies          66
+Atrial Fibrillation               43
+Hypertension Management           40
+Device Therapy                    37
+Diabetes & CVD                    24
+
+BOTTOM 10 DOMAINS (EVIDENCE GAPS):
+domain
+Atrial Fibrillation        43
+Hypertension Management    40
+Device Therapy             37
+Diabetes & CVD             24
+Anticoagulation            23
+Antiplatelet Therapy       19
+Arrhythmia Management      16
+RAAS Inhibition             8
+Thrombolysis                7
+Primary Prevention          3
+
+TEMPORAL DISTRIBUTION:
+decade
+1970      2
+1980     20
+1990     83
+2000    290
+2010    461
+2020    145
+
+AVERAGE TRIAL SIZE BY DECADE:
+decade
+1970    5518.0
+1980    4901.0
+1990    5172.0
+2000    5093.0
+2010    2994.0
+2020    3461.0
+
+FILES GENERATED:
+- SupplementaryFigure1_EvidenceMap_HeatMap.png/pdf
+- SupplementaryFigure2_TemporalTrends.png/pdf
+- SupplementaryFigure3_EvidenceGaps.png/pdf
+- SupplementaryTable1_Complete_Trial_List.csv
+- SupplementaryTable1_Summary_by_Domain.csv
+
+======================================================================

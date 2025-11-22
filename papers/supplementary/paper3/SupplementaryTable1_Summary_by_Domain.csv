@@ -1,0 +1,17 @@
+domain,N_Trials,Total_Patients,Year_First,Year_Last,Mean_Age,Pct_Male
+Other Cardiovascular,272,641289,1970,2024,59.8,59.9
+Heart Failure Pharmacotherapy,134,344248,1987,2022,62.8,64.9
+Interventional Cardiology,129,217648,1993,2023,64.4,69.7
+Acute Coronary Syndromes,94,911833,1978,2024,63.5,67.3
+Stroke Prevention,86,537404,1988,2023,61.7,61.8
+Lipid-Lowering Therapies,66,435151,1984,2023,60.6,67.4
+Atrial Fibrillation,43,69390,1994,2023,66.9,66.8
+Hypertension Management,40,172184,1994,2021,58.6,51.9
+Device Therapy,37,21869,1993,2022,62.2,74.9
+Diabetes & CVD,24,121271,1995,2023,61.0,66.4
+Anticoagulation,23,81377,2000,2021,65.7,55.7
+Antiplatelet Therapy,19,101704,1980,2020,59.5,69.1
+Arrhythmia Management,16,6705,1989,2023,56.3,60.1
+RAAS Inhibition,8,42953,1995,2021,68.2,51.1
+Thrombolysis,7,44668,1990,2023,62.1,60.9
+Primary Prevention,3,147616,2013,2022,65.0,47.7

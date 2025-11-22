@@ -1,0 +1,6 @@
+Method,Tau² Estimation,Inference,Standard Error,Advantages,Limitations,Computational Time (N=1000)
+DerSimonian-Laird (DL),Moment-based: τ²=(Q-df)/C,Normal distribution: μ ± 1.96×SE,SE = 1/√Σw*,"Simple, fast, widely used",Underestimates τ² and uncertainty,<0.1 seconds
+REML,Maximum likelihood on restricted data,Normal distribution: μ ± 1.96×SE,SE = 1/√Σw*,More accurate τ² than DL,Still assumes normality,~0.5 seconds
+Hartung-Knapp-Sidik-Jonkman,REML (same as above),t-distribution with k-1 df,SE = √[s²/Σw*] (inflated),Conservative CIs with heterogeneity,Benefits reduced with large k,~0.6 seconds
+Paule-Mandel,Iterative: Q(τ²)=E[Q],Normal distribution: μ ± 1.96×SE,SE = 1/√Σw*,Robust τ² estimation,Can fail to converge,~1-2 seconds
+Bayesian Hierarchical,Prior: τ~HalfNormal(0.5),Full posterior: MCMC sampling,Posterior SD from samples,Full uncertainty quantification,Computationally intensive,~5-10 minutes
