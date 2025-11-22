@@ -146,6 +146,10 @@ data/curated/**
 !data/raw/phase16_additional_domains/
 !data/raw/phase16_additional_domains/*.csv
 
+# Allow Phase 17 additional domains 2 (Cardiac arrest, Advanced HF/transplant, Additional PVD, Gender-specific, PE treatment)
+!data/raw/phase17_additional_domains2/
+!data/raw/phase17_additional_domains2/*.csv
+
 # Logs
 logs/
 *.log
