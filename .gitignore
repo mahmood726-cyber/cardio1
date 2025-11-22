@@ -158,6 +158,10 @@ data/curated/**
 !data/raw/phase19_additional_domains4/
 !data/raw/phase19_additional_domains4/*.csv
 
+# Allow Phase 20 additional domains 5 (Additional valve, HCM, VTE prophylaxis, Additional stroke, Additional metabolic/diabetes)
+!data/raw/phase20_additional_domains5/
+!data/raw/phase20_additional_domains5/*.csv
+
 # Logs
 logs/
 *.log
