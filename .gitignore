@@ -170,6 +170,13 @@ data/curated/**
 !data/raw/phase22_final_expansion/
 !data/raw/phase22_final_expansion/*.csv
 
+# Allow meta-analysis results (comprehensive analysis of 1001 trials)
+!data/analysis/
+!data/analysis/meta_analysis_results/
+!data/analysis/meta_analysis_results/*.csv
+!data/analysis/meta_analysis_results/*.png
+!data/analysis/meta_analysis_results/*.md
+
 # Logs
 logs/
 *.log
