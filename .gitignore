@@ -182,6 +182,15 @@ data/curated/**
 !data/analysis/novel_advanced_results/*.csv
 !data/analysis/novel_advanced_results/*.png
 
+# Allow corrected results (addresses editorial review)
+!data/analysis/corrected_results/
+!data/analysis/corrected_results/*.csv
+
+# Allow papers for publication
+!papers/
+!papers/*.md
+!papers/*.pdf
+
 # Logs
 logs/
 *.log

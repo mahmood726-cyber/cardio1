@@ -1,0 +1,5 @@
+Covariate,VIF,Interpretation
+Year,1.0824706948857177,Acceptable
+Age,1.1355316744637582,Acceptable
+Log(Sample Size),1.1050870952237175,Acceptable
+% Male,1.0774233672663107,Acceptable
