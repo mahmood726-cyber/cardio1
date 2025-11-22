@@ -154,6 +154,10 @@ data/curated/**
 !data/raw/phase18_additional_domains3/
 !data/raw/phase18_additional_domains3/*.csv
 
+# Allow Phase 19 additional domains 4 (Antiarrhythmic drugs, HF devices, Myocarditis, Cardiogenic shock/MCS, Electrophysiology)
+!data/raw/phase19_additional_domains4/
+!data/raw/phase19_additional_domains4/*.csv
+
 # Logs
 logs/
 *.log
