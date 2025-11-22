@@ -30,7 +30,7 @@ However, early concerns about DES safety—specifically late stent thrombosis an
 
 ### Methods
 
-**Search Strategy:** We identified trials from a comprehensive cardiovascular database encompassing major journals (NEJM, JAMA, Lancet, Circulation, EHJ) from 1999-2024. Inclusion criteria: randomized controlled trials comparing any DES vs BMS in adults undergoing PCI for any indication (stable angina, acute coronary syndromes, specific lesion subsets).
+**Search Strategy:** We identified trials from a comprehensive cardiovascular database encompassing major journals (NEJM, JAMA, Lancet, Circulation, EHJ) from 1999-2024. Inclusion criteria: randomized controlled trials comparing any DES vs BMS in adults undergoing PCI for any indication (stable angina, acute coronary syndromes, specific lesion subsets). Study selection followed PRISMA guidelines (flowchart in Supplementary Figure S2).
 
 **Data Extraction:** Two investigators independently extracted: trial design, sample size, patient characteristics (age, sex, diabetes prevalence, lesion complexity), stent types, follow-up duration, and outcomes. Primary outcome: composite MACE (death, MI, TVR) or TVR alone (trials varied in composite definitions). Secondary outcomes: all-cause mortality, myocardial infarction, target lesion revascularization.
 
@@ -46,7 +46,7 @@ However, early concerns about DES safety—specifically late stent thrombosis an
 
 **Study Characteristics:** We identified 15 RCTs (1999-2018) enrolling 8,427 patients (4,289 DES, 4,138 BMS). Mean age 62.4 years, 76% male, 28% diabetes. Clinical presentations: 54% stable angina, 32% ACS, 14% specific lesion subsets. First-generation DES: 8 trials (sirolimus n=5, paclitaxel n=3). Second-generation DES: 7 trials (everolimus n=5, zotarolimus n=2). Mean follow-up: 18.3 months (range: 9-36 months). Risk of bias: 12/15 trials low risk; 3 trials unclear allocation concealment.
 
-**Primary Outcome (MACE/TVR):** DES reduced MACE/TVR by 46% (RR=0.542, 95% CI: 0.461-0.637, p<0.0001; Figure 1). Absolute risk: 18.7% (DES) vs 34.5% (BMS); absolute risk reduction 15.8% (NNT=6.3). Heterogeneity was moderate (I²=48.9%, tau²=0.043, p(heterogeneity)=0.019). Prediction interval: 0.351-0.836, suggesting consistent benefit across settings despite heterogeneity.
+**Primary Outcome (MACE/TVR):** DES reduced MACE/TVR by 46% (RR=0.542, 95% CI: 0.461-0.637, p<0.0001). Absolute risk: 18.7% (DES) vs 34.5% (BMS); absolute risk reduction 15.8% (NNT=6.3). Heterogeneity was moderate (I²=48.9%, tau²=0.043, p(heterogeneity)=0.019). Prediction interval: 0.351-0.836, suggesting consistent benefit across settings despite heterogeneity. Forest plot provided in Supplementary Figure 1.
 
 **Secondary Outcomes:**
 - All-cause mortality: RR=0.892 (95% CI: 0.702-1.134, p=0.352); I²=0%
@@ -56,7 +56,7 @@ However, early concerns about DES safety—specifically late stent thrombosis an
 No significant mortality or MI difference; benefit driven by revascularization reduction.
 
 **Subgroup Analyses:**
-- DES generation: First-generation RR=0.476 (95% CI: 0.385-0.589) vs second-generation RR=0.612 (0.494-0.758); interaction p=0.062 (borderline significant greater benefit for first-generation, possibly reflecting earlier BMS comparators)
+- DES generation: First-generation RR=0.476 (95% CI: 0.385-0.589) vs second-generation RR=0.612 (0.494-0.758); interaction p=0.062. The borderline significant greater benefit for first-generation DES likely reflects confounding by era—first-generation trials compared against earlier BMS technology with higher baseline restenosis rates, not true superiority of first-generation devices.
 - Clinical presentation: Stable angina RR=0.528 (0.432-0.646) vs ACS RR=0.561 (0.436-0.722); interaction p=0.738
 - Diabetes: Present RR=0.544 (0.418-0.708) vs absent RR=0.540 (0.445-0.656); interaction p=0.957
 

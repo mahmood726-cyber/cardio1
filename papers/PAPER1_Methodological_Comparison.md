@@ -62,7 +62,7 @@ This study compares five meta-analysis methods using a large cardiovascular tria
 
 **Heterogeneity Estimation:** REML estimated tau²=0.028, 56% higher than DL (tau²=0.018). I² was 70.2% (moderate heterogeneity), consistent across methods. Between-study standard deviation ranged from 0.13 (DL) to 0.17 (Bayesian).
 
-**Bayesian Analysis:** Full dataset analysis (N=1000) yielded posterior mean RR=0.833 (95% CrI: 0.821-0.846), tau=0.167. Convergence diagnostics: median R-hat=1.01 (acceptable); effective sample sizes >400 for key parameters. Posterior distributions showed slight right skew for tau, reflecting uncertainty in heterogeneity estimation. Subset analysis (N=500, first chronologically) showed higher RR=0.854, highlighting selection bias risks.
+**Bayesian Analysis:** Full dataset analysis (N=1000) yielded posterior mean RR=0.833 (95% CrI: 0.821-0.846), tau=0.167. Convergence diagnostics: median R-hat=1.01 (acceptable, though some parameters slightly >1.01); effective sample sizes >400 for key parameters. We used 2 chains for computational efficiency; 4+ chains recommended for publication-quality analyses. Posterior distributions showed slight right skew for tau, reflecting uncertainty in heterogeneity estimation. Subset analysis (N=500, first chronologically) showed higher RR=0.854, highlighting selection bias risks.
 
 **Hartung-Knapp Adjustment:** SE inflation factor was 1.16× relative to naive random-effects, reflecting moderate residual heterogeneity. With 999 degrees of freedom, t-critical value (1.962) approximated normal distribution; HKSJ benefits are more pronounced with fewer studies (k<20)[6].
 
@@ -76,7 +76,7 @@ This study compares five meta-analysis methods using a large cardiovascular tria
 | REML | 0.833 | 0.822-0.845 | 0.028 | 0.023 |
 | HKSJ | 0.833 | 0.820-0.847 | 0.028 | 0.027 |
 | Paule-Mandel | 0.835 | 0.823-0.848 | 0.026 | 0.025 |
-| Bayesian | 0.833 | 0.821-0.846* | tau=0.167 | 0.025 |
+| Bayesian | 0.833 | 0.821-0.846* | 0.028 | 0.025 |
 
 *Credible interval, not confidence interval
 
@@ -117,7 +117,7 @@ This comparison demonstrates that while different meta-analysis methods yield si
 
 **Acknowledgments:** None.
 **Conflicts of Interest:** None.
-**Data Availability:** Analysis code and data available at [repository].
+**Data Availability:** Analysis code and data available at [repository]. Supplementary materials include forest plot by method and detailed convergence diagnostics.
 
 ---
 

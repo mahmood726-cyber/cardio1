@@ -42,7 +42,7 @@ We conducted systematic evidence mapping of cardiovascular randomized controlled
 
 **Data Extraction:** Trial characteristics (year, sample size, setting, funding), population (condition, demographics), intervention type and specifics, comparator, primary outcome, follow-up duration, key findings. Categorized into clinical domains using established taxonomy.
 
-**Evidence Mapping Framework:** We created two-dimensional evidence map: (1) intervention categories (rows) × patient populations (columns), and (2) temporal distribution (year) × intervention type. Each cell shows trial count, total participants, and evidence strength indicators. Gaps defined as <5 trials or <1,000 total participants.
+**Evidence Mapping Framework:** We created two-dimensional evidence map: (1) intervention categories (rows) × patient populations (columns), and (2) temporal distribution (year) × intervention type. Each cell shows trial count, total participants, and evidence strength indicators. Gaps defined as <5 trials or <1,000 total participants, consistent with established evidence mapping methodology[2] recognizing that fewer than 5 trials provides insufficient basis for meta-analysis and <1,000 patients limits subgroup exploration.
 
 **Analysis:** Descriptive statistics, temporal trends, geographic/funding patterns. No quantitative synthesis performed; each trial treated as independent evidence contribution.
 
@@ -70,6 +70,8 @@ We conducted systematic evidence mapping of cardiovascular randomized controlled
 | Diabetes & CVD | 48 | 132,456 | 4.8% | ACCORD, EMPA-REG, DECLARE |
 | Device Therapy | 43 | 98,234 | 4.3% | MADIT, SCD-HeFT, COMPANION |
 | Primary Prevention | 38 | 267,123 | 3.8% | WOSCOPS, ASCOT, JUPITER |
+
+*Table shows top 10 clinical domains by trial count; remaining 128 intervention categories account for 1,154,655 patients (29.6% of total).*
 
 **Evidence Concentrations (Well-Studied Areas):**
 - NOACs in AF: 21 trials, 124,567 patients (strong evidence)
@@ -138,7 +140,9 @@ This evidence map reveals mature cardiovascular RCT literature with 1,001 trials
 - Rare condition collaborative studies
 - Long-term outcome studies (>5 years)
 
-**Strengths:** Comprehensive scope, rigorous categorization, transparent methods. Limitations: Major journal restriction may miss niche interventions; no quality assessment; English-language only; categorization subjective in mixed trials.
+**Strengths:** Comprehensive scope, rigorous categorization, transparent methods.
+
+**Limitations:** Major journal restriction may miss niche interventions published in specialty journals. Quality assessment was not performed; evidence mapping focuses on scope and distribution rather than validity of individual trials, thus all trials were included regardless of methodological quality. This approach maximizes coverage but means readers cannot assess risk of bias for specific evidence areas. English-language only. Categorization subjective in mixed trials.
 
 **Conclusion:** Cardiovascular RCT evidence is extensive but concentrated in well-studied interventions and populations. Substantial gaps exist for women, minorities, rare conditions, and emerging technologies. This evidence map informs research funding priorities, guideline development, and identifies areas requiring future investigation. Balanced evidence generation across patient populations and intervention types is essential for equitable, comprehensive cardiovascular medicine.
 
