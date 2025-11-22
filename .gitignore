@@ -177,6 +177,11 @@ data/curated/**
 !data/analysis/meta_analysis_results/*.png
 !data/analysis/meta_analysis_results/*.md
 
+# Allow novel advanced meta-analysis results (Bayesian, REML, meta-regression)
+!data/analysis/novel_advanced_results/
+!data/analysis/novel_advanced_results/*.csv
+!data/analysis/novel_advanced_results/*.png
+
 # Logs
 logs/
 *.log
