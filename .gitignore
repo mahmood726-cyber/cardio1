@@ -162,6 +162,10 @@ data/curated/**
 !data/raw/phase20_additional_domains5/
 !data/raw/phase20_additional_domains5/*.csv
 
+# Allow Phase 21 additional domains 6 (Additional antiplatelet, Bleeding risk, Additional HTN, Platelet function testing, Additional preventive)
+!data/raw/phase21_additional_domains6/
+!data/raw/phase21_additional_domains6/*.csv
+
 # Logs
 logs/
 *.log
