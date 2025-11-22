@@ -138,6 +138,10 @@ data/curated/**
 !data/raw/phase14_rare_conditions/
 !data/raw/phase14_rare_conditions/*.csv
 
+# Allow Phase 15 quality/systems (Remote monitoring, Quality improvement, Decision support, Transitional care, Digital health)
+!data/raw/phase15_quality_systems/
+!data/raw/phase15_quality_systems/*.csv
+
 # Logs
 logs/
 *.log
