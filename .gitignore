@@ -142,6 +142,10 @@ data/curated/**
 !data/raw/phase15_quality_systems/
 !data/raw/phase15_quality_systems/*.csv
 
+# Allow Phase 16 additional domains (Sleep apnea, Genetic conditions, CTO PCI, Antiplatelet, Nutrition/cachexia)
+!data/raw/phase16_additional_domains/
+!data/raw/phase16_additional_domains/*.csv
+
 # Logs
 logs/
 *.log
